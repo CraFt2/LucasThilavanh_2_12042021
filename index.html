@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
   		<meta charset="utf-8">
-  		<title></title>
+  		<title>Reservia</title>
  		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<header>
  			<p>
- 				<img src="./Reservia.png" class="logo">
+ 				<img src="./Reservia.png" class="logo" alt="logo du site Reservia">
  			</p>
 			<nav> 
 				<ul>
@@ -26,49 +26,55 @@
        aria-label="Search through site content" placeholder="Marseille, France">
 
 		<button>Rechercher</button>
-		<p id="Filtres"> Filtres </p>
-		<p id="Economique"> Economique </p>
-		<p id="Familial"> Familial </p>
-		<p id="Romantiques"> Romantiques </p>
-		<p id="Animaux"> Animaux autorisés </p>
+		<p class="titreFiltre"> Filtres </p>
+		<p class="btnFiltre"> Economique </p>
+		<p class="btnFiltre"> Familial </p>
+		<p class="btnFiltre"> Romantiques </p>
+		<p class="btnFiltre" > Animaux autorisés </p>
 		<p> Plus de 500 logements sont disponibles dans cette ville </p>
 
-		<section id="section1">
+		<section id="hebergements">
 			<h4>Hébergements à Marseille </h4> 
-			<figure>
-				<img src="./cannebiere2.jpg" alt="auberge" class="imghebergement" />
-				<figcaption> Auberge la cannebiere <br/>	
-							Nuit à partir de 25€ 
+			<figure class="vignetteHebergement">
+				<img src="./cannebiere2.jpg" alt="auberge" class="imgHebergement" />
+				<figcaption> 
+					<p> Auberge la cannebiere </p>	
+					<p> Nuit à partir de 25€ </p>
 				</figcaption>
 			</figure>
-			<figure>
-				<img src="./Hôtel du port.jpg" alt="Hôtel"/>
-				<figcaption> Hôtel du port <br/>
-							Nuit à partir de 52€
+			<figure class="vignetteHebergement">
+				<img src="./Hotelduport.jpg" alt="Hôtel"/>
+				<figcaption>
+					<p>Hôtel du port</p>
+					<p>Nuit à partir de 52€</p>
 				</figcaption>
 			</figure>
-			<figure>
-				<img src="./Hôtel les mouettes.jpg" alt="Hôtel"/>
-				<figcaption> Hôtel les mouettes <br/>
-							Nuit à partir de 76€
+			<figure class="vignetteHebergement">
+				<img src="./Hotellesmouettes.jpg" alt="Hôtel"/>
+				<figcaption>
+					<p> Hôtel les mouettes </p>
+					<p>Nuit à partir de 76€</p>
 				</figcaption>
 			</figure>
-			<figure>
-				<img src="./Auberge de la mer.jpg" alt="auberge"/>
-				<figcaption> Auberge de la mer <br/>
-							Nuit à partir de 46€
+			<figure class="vignetteHebergement">
+				<img src="./Aubergedelamer.jpg" alt="auberge"/>
+				<figcaption> 
+					<p> Auberge de la mer</p>
+					<p>Nuit à partir de 46€</p>
 				</figcaption>
 			</figure>
-			<figure>
-				<img src="./Auberge le panier.jpg" alt="auberge"/>
-				<figcaption> Auberge le panier <br/>
-							Nuit à partir de 23€
+			<figure class="vignetteHebergement">
+				<img src="./Aubergelepanier.jpg" alt="auberge"/>
+				<figcaption>
+					<p> Auberge le panier </p>
+					<p> Nuit à partir de 23€</p>
 				</figcaption>
 			</figure>
-			<figure>
-				<img src="./Hôtel chez Amina.jpg" alt="Hôtel"/>
-				<figcaption> Hôtel chez Amina <br/>
-							Nuit à partir de 96€
+			<figure class="vignetteHebergement">
+				<img src="./HotelchezAmina.jpg" alt="Hôtel"/>
+				<figcaption> 
+					<p> Hôtel chez Amina </p>
+					<p> Nuit à partir de 96€</p>
 				</figcaption>
 			</figure>
 			<p> <strong> Afficher plus </strong> </p>
@@ -76,22 +82,66 @@
 		<aside>
          	<h4> Les plus populaires </h4>
          	<figure>
-				<img src="./Hôtel le soleil du matin.jpg" alt="Hôtel"/>
-				<figcaption> Hôtel le soleil du matin <br/>
-							Nuit à partir de 128€</figcaption>
-			</figure>
-			<figure>
-				<img src="./chambres d'hôtes.jpg" alt="Hôtel"/>
-				<figcaption> Au coeur de l'eau <br/>
-							Chambres d'hôtes <br/>
-							Nuit à partir de 71€
+				<img src="./Hotellesoleildumatin.jpg" alt="Hôtel"/>
+				<figcaption> 
+					<p> Hôtel le soleil du matin </p>
+					<p> Nuit à partir de 128€ </p>
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="./Hôtel tout bleu et blanc.jpg" alt="Hôtel"/>
-				<figcaption> Hôtel tout bleu et blanc <br/>
-							Nuit à partir de 68€</figcaption>
+				<img src="./chambresdhotes.jpg" alt="Hôtel"/>
+				<figcaption> 
+					<p> Au coeur de l'eau <br/>
+							Chambres d'hôtes </p>
+					<p> Nuit à partir de 71€ </p>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="./Hoteltoutbleuetblanc.jpg" alt="Hôtel"/>
+				<figcaption> 
+					<p> Hôtel tout bleu et blanc </p>
+					<p> Nuit à partir de 68€</p>
+				</figcaption>
 			</figure>
 		</aside>
+		<section>
+			<h4> Activités à Marseille </h4>
+			<img src="./Vieuxport.jpg" alt="Port"/>
+				<figcaption> 
+					<p> Vieux Port </p>
+				</figcaption>
+			<img src="./Fortdepomegues.jpg" alt="Fort"/>
+				<figcaption> 
+					<p> Fort de Pomègues </p>
+				</figcaption>
+			<img src="./Ilesdufrioul.jpg" alt="Îles"/>
+				<figcaption> 
+					<p> Îles du Frioul </p>
+				</figcaption>
+			<img src="./Parcnational.jpg" alt="Parc national"/>
+				<figcaption> 
+					<p> Parc National des Calanques </p>
+				</figcaption>
+			<img src="./Notredamedelagarde.jpg" alt="Eglise"/>
+				<figcaption> 
+					<p> Notre-Dame-de-la-Garde </p>
+				</figcaption>
+			<img src="./Parclongchamp.jpg" alt="Parc"/>
+				<figcaption> 
+					<p> Parc Longchamp </p>
+				</figcaption>
+		</section>
+		<footer>
+			<h5> A propos</h5>
+			<p> Fonctionnement du site </p>
+			<p> Conditions générales de vente </p>
+			<p> Données et confidentialité </p>
+			<h5> Nos hébergements</h5>
+			<p> Charte qualité </p>
+			<p> Soumettre votre hôtel </p>
+			<h5> Assistance </h5>
+			<p> Centre d'aide </p>
+			<p> Nous contacter </p>
+		</footer>
 	</body>
 </html>
