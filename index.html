@@ -6,7 +6,7 @@
       <link href="index.css" rel="stylesheet">
       <script src="https://kit.fontawesome.com/0795d459ce.js" crossorigin="anonymous"></script>
       <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">   		
    </head>
    <body>
       <header>
@@ -21,25 +21,44 @@
             </ul>
          </nav>
       </header>
-      <p> 
       <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+      <p class="sousTitre"><em>En plein centre ville ou en pleine nature</em> 
       </p>
-      <p><em>En plein centre ville ou en pleine nature</em> 
-      </p>
-      <input type="search" id="site-search" name="q"
+      <div class="formulaireRecherche">
+      	<span class="logoMap"> 
+      <i class="fas fa-map-marker-alt"></i>
+  		</span>
+      <input type="search" class="site-search" name="q"
          aria-label="Search through site content" placeholder="Marseille, France">
       <button>Rechercher</button> <br>
-      <section id="Filtres">
-         <p class="btnFiltre"> Filtres </p>
+ 	  </div>
+      <section class="Filtres">
+         <h2 class="btnTitre"> Filtres </h2>
          <div class="contenairFiltres">
-            <p class="btnFiltre"> Economique </p>
-            <p class="btnFiltre"> Familial </p>
-            <p class="btnFiltre"> Romantiques </p>
-            <p class="btnFiltre" > Animaux autorisés </p>
+         	<span class="iconeFiltre"><i class="fas fa-money-bill-wave"></i></span> 
+            <p class="btnFiltre">Economique</p>
+       		 </div>
+        	<div class="contenairFiltres">
+            <span class="iconeFiltre"><i class="fas fa-child"></i></span>
+            <p class="btnFiltre">Familial</p>
+       		 </div>
+       		 <div class="contenairFiltres">
+            <span class="iconeFiltre"><i class="fas fa-heart"></i></span>
+            <p class="btnFiltre">Romantiques</p>
+        </div>
+        <div class="contenairFiltres">
+            <span class="iconeFiltre"><i class="fas fa-dog"></i></span>
+            <p class="btnFiltre">Animaux autorisés</p>
+        </div>
          </div>
       </section>
-      <p> Plus de 500 logements sont disponibles dans cette ville </p>
-      <section id="hebergements">
+      <div class="information">
+      	<span class="infoIcone"><i class="fas fa-info"></i></span>
+      	<p> Plus de 500 logements sont disponibles dans cette ville </p>
+      </div>
+      <div class="sectionAside">
+      <section id="hebergement">
+      	<div class="hebergements">
          <h4>Hébergements à Marseille </h4>
          <div class="contenairVignette">
             <figure class="vignetteHebergement">
@@ -86,6 +105,7 @@
             </figure>
          </div>
          <p> <strong> Afficher plus </strong> </p>
+     </div>
       </section>
       <aside>
          <h4> Les plus populaires </h4>
@@ -121,6 +141,7 @@
             </figure>
          </div>
       </aside>
+  		</div>
       <section>
          <h4> Activités à Marseille </h4>
          <div class="contenairActivites">
