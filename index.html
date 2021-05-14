@@ -2,6 +2,7 @@
 <html lang="fr">
    <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Reservia</title>
       <link href="index.css" rel="stylesheet">
       <script src="https://kit.fontawesome.com/0795d459ce.js" crossorigin="anonymous"></script>
@@ -50,7 +51,6 @@
             <span class="iconeFiltre"><i class="fas fa-dog"></i></span>
             <p class="btnFiltre">Animaux autorisés</p>
         </div>
-         </div>
       </section>
       <div class="information">
       	<span class="infoIcone"><i class="fas fa-info"></i></span>
@@ -108,7 +108,10 @@
      </div>
       </section>
       <aside>
-         <h4> Les plus populaires </h4>
+      	<div class="TitrePopulaire">
+         <h4> Les plus populaires </h4>	
+         <i class="fas fa-chart-line"></i>
+     	</div>
          <div class="contenairPopulaire">
             <figure class="vignettePopulaire">
                <img src="./Hotellesoleildumatin.jpg" alt="Hôtel" class="imgPopulaire" />
@@ -142,15 +145,17 @@
          </div>
       </aside>
   		</div>
-      <section>
+      <section id="Activites">
          <h4> Activités à Marseille </h4>
          <div class="contenairActivites">
+         	<div class="GrandAct">
             <figure class="vignetteActivites">
                <img src="./Vieuxport.jpg" alt="Port" class="imgActivitesGrand"/>
                <figcaption>
                   <p> Vieux Port </p>
                </figcaption>
             </figure>
+        	</div>
             <div class="imgAct">
                <figure class="vignetteActivites">
                   <img src="./Fortdepomegues.jpg" alt="Fort" class="imgActivites" />
@@ -165,12 +170,14 @@
                   </figcaption>
                </figure>
             </div>
+            <div class="GrandAct">
             <figure class="vignetteActivites">
                <img src="./Parcnational.jpg" alt="Parc national" class="imgActivitesGrand"/>
                <figcaption>
                   <p> Parc National des Calanques </p>
                </figcaption>
             </figure>
+        	</div>
             <div class="imgAct">
                <figure class="vignetteActivites">
                   <img src="./Notredamedelagarde.jpg" alt="Eglise" class="imgActivites"/>
@@ -189,18 +196,18 @@
       </section>
       <footer>
          <div class="footerReservia">
-            <div class="footer1">
+            <div class="lienfooter">
                <h5> A propos</h5>
                <p> Fonctionnement du site </p>
                <p> Conditions générales de vente </p>
                <p> Données et confidentialité </p>
             </div>
-            <div class="footer2">
+            <div class="lienfooter">
                <h5> Nos hébergements</h5>
                <p> Charte qualité </p>
                <p> Soumettre votre hôtel </p>
             </div>
-            <div class="footer3">
+            <div class="lienfooter">
                <h5> Assistance </h5>
                <p> Centre d'aide </p>
                <p> Nous contacter </p>
