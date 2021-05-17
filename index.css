@@ -21,9 +21,12 @@ nav a {
     color: black;
 }
 nav a:hover {
-color: #0065FC;
-border-top:2px solid #0065FC;
-padding-top: 20px
+    color: #0065FC;
+    border-top:2px solid #0065FC;
+    padding-top: 20px
+}
+.inscription {
+    color: #0065FC;
 }
 .sousTitre {
     margin: 5px;
@@ -195,25 +198,30 @@ h2{
 }
 .contenairActivites {
     display: flex;
-    width: 350px;
+    width: 100%;
 }
 .vignetteActivites {
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 20px #0000002e;
-    border-radius: 1rem;
+    box-shadow: 0 0 35px #0000002e;
+    border-radius: 1em;
     display: flex;
     flex-direction: column;
+    cursor: pointer
 }
 .imgActivites {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
 .imgActivitesGrand {
-    width: 286px;
-    height:484px;
+    width: 100%;
+    height:100%;
     object-fit: cover;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
 .imgAct {
     display: flex;
@@ -228,24 +236,14 @@ footer {
 }
 .footerReservia {
     display: flex;
+    margin-top: 100px;
+    background-color: #F2F2F2;
+    width: 100%;
 }
 .lienfooter {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 350px
-}
-.lienfooter {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 350px;
-}
-.lienfooter{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 350px
+    width: 490px;
 }
 .sectionAside {
     display: flex;
@@ -271,4 +269,57 @@ aside {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+.vignettePort, .vignetteParc {
+    width: 302px;
+    height: 386px;
+}
+.vignetteActivites {
+    width: 300px;
+}
+.vignetteFort {
+    height: 179px;
+}
+.vignetteIle {
+    height: 108px;
+    margin-top: 55px;
+}
+.vignetteDame {
+    height: 138px;
+}
+.vignetteLongchamp {
+    height: 150px;
+    margin-top: 55px;
+}
+.texteAct {
+    box-shadow: 0 0 20px #0000002e;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.titreVignette{
+    margin-top: 0.25em;
+    margin-right: 0.75em;
+    margin-left: 0.75em;
+    height: 8px;
+}
+h3 {
+    margin-top: 0.25em;
+    margin-right: 0.75em;
+}
+.texteVignette {
+    margin-right: 0.75em;
+    margin-left: 0.75em;
+}
+.good {
+    color: #0065FC;
+}
+.bad{
+    color: #F2F2F2;
+}
+.starVignette {
+    margin-top: 0px;
+    margin-right: 0.75rem;
+    margin-bottom: 0.25rem;
+    margin-left: 0.75rem;
+    display: flex;
 }
