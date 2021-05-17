@@ -39,6 +39,10 @@ nav a:hover {
 h1 {
     margin:3px;
 }
+h3 {
+    margin-top: 0.25em;
+    margin-right: 0.75em;
+}
 .site-search {
     height: 27px;
 }
@@ -150,7 +154,6 @@ h2{
     padding-left: 0.375em;
     border-radius: 1.25em;
     cursor: pointer;
-    height: 100%;
     flex-direction: column;
 }
 .hebergements {
@@ -169,6 +172,21 @@ h2{
    object-fit: cover;
    border-top-left-radius: 1em;
    border-top-right-radius: 1em;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #F2F2F2;
+    width: 370px;
+    height: 605px;
+    padding-top: 12px;
+    margin-top: 10px;
+}
+.TitrePopulaire {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .imgPopulaire {
    width: 157px; 
@@ -200,6 +218,11 @@ h2{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+}
+.texteAct {
+    box-shadow: 0 0 20px #0000002e;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
 .contenairActivites {
     display: flex;
@@ -233,41 +256,9 @@ h2{
     flex-direction: column;
     align-items: center;
 }
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: flex-start;     
-}
-.footerReservia {
-    display: flex;
-    margin-top: 100px;
-    background-color: #F2F2F2;
-    width: 100%;
-}
-.lienfooter {
-    display: flex;
-    flex-direction: column;
-    width: 490px;
-}
 .sectionAside {
     display: flex;
     flex-direction: row;
-}
-aside {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px 20px 20px 20px;
-    background-color: #F2F2F2;
-    width: 370px;
-    height: 605px;
-    padding-top: 12px;
-    margin-top: 10px;
-}
-.TitrePopulaire {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .GrandAct {
     display: flex;
@@ -297,21 +288,30 @@ aside {
     height: 150px;
     margin-top: 46px;
 }
-.texteAct {
-    box-shadow: 0 0 20px #0000002e;
-    border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;
-}
 .titreVignette{
     margin-top: 0.25em;
     margin-right: 0.75em;
     margin-left: 0.75em;
     height: 8px;
 }
-h3 {
-    margin-top: 0.25em;
-    margin-right: 0.75em;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;     
 }
+.footerReservia {
+    display: flex;
+    margin-top: 100px;
+    background-color: #F2F2F2;
+    width: 100%;
+}
+.lienfooter {
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+}
+
 .texteVignette {
     margin-right: 0.75em;
     margin-left: 0.75em;
@@ -329,7 +329,6 @@ h3 {
     margin-left: 0.75rem;
     display: flex;
 }
-
 @media screen and (max-width: 768px) and (min-width: 320px)
 {
     /* Rédigez vos propriétés CSS ici */
