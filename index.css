@@ -329,13 +329,18 @@ footer {
     margin-left: 0.75rem;
     display: flex;
 }
+.rechercher {
+    display: initial;
+}
+.logoRecherche {
+    display: none;
+}
 @media screen and (max-width: 768px) and (min-width: 320px)
 {
 header {
     flex-wrap: wrap;
 }
 ul{
-    flex-direction: column;
     padding-left: 0px;
     order: 2
 }
@@ -343,7 +348,11 @@ h2 {
     margin-left: 1em;
 }
 .inscription {
-margin-right: 10px
+    margin-right: 10px;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+
 }
 .formulaireRecherche{
     display: flex;
@@ -376,7 +385,36 @@ margin-right: 10px
 .headerHebergement, .entete {
     order: 2;
 }
-
+.rechercher {
+    display: none;
+}
+.logoRecherche {
+    display: initial;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-top-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    padding-right: 2em;
+    height: 38px;
+}
+aside{
+    width: 100%;
+    padding-top: 12px;
+    margin-top: 10px;
+}
+.vignettePopulaire {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.imgPopulaire {
+    width: 95px;
+    height: 140px;
+}
 }
 @media screen and (min-width: 769px) and (max-width: 1024px)
 {
