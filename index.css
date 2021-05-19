@@ -331,7 +331,52 @@ footer {
 }
 @media screen and (max-width: 768px) and (min-width: 320px)
 {
-    /* Rédigez vos propriétés CSS ici */
+header {
+    flex-wrap: wrap;
+}
+ul{
+    flex-direction: column;
+    padding-left: 0px;
+    order: 2
+}
+h2 {
+    margin-left: 1em;
+}
+.inscription {
+margin-right: 10px
+}
+.formulaireRecherche{
+    display: flex;
+}
+.Filtres {
+    flex-direction: column;
+}
+.sectionAside {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.TitrePopulaire {
+    justify-content: space-around;
+}
+.contenairActivites {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.vignetteActivites {
+    height: 138px;
+    margin-bottom: 35px;
+}
+.footerReservia {
+    flex-wrap: wrap;
+}
+.headerHebergement, .headerActivites{
+    display: flex;
+}
+.headerHebergement, .entete {
+    order: 2;
+}
+
 }
 @media screen and (min-width: 769px) and (max-width: 1024px)
 {
